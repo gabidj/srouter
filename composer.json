@@ -27,5 +27,13 @@
   "authors" : [ {
     "name" : "Gabi DJ",
     "email" : "contact@gabisuciu.ro"
-  } ]
+  } ],
+  "repositories": [ {
+    "type": "vcs",
+    "url": "https://github.com/gabidj/srouter"
+    }],
+   "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
 }
