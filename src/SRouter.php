@@ -22,18 +22,6 @@ class SRouter implements RouterInterface
 	private $_forbidRouteAdd = false;
 	
 	/**
-	 * Injectable constructor.
-	 * @param Router|null $router
-	 */
-	public function __construct(SRouter $router = null)
-	{
-		if(null !== $router)
-		{
-			return $router;
-		}
-	}
-	
-	/**
 	 * Add a route.
 	 *
 	 * This method adds a route against which the underlying implementation may
