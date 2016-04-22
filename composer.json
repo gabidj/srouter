@@ -14,7 +14,7 @@
   "keywords" : [ "routing", "router", "simple routing", "text match routing" ],
   "autoload-dev" : {
     "psr-4" : {
-      "GabiDJ\\SRouter\\" : "test/"
+      "GabiDJ\\SRouter\\" : "tests/"
     }
   },
   "minimum-stability" : "dev",
